@@ -1,0 +1,12 @@
+.header-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+
+    .header-link {
+        text-decoration: none;
+        padding: 0 20px;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+    }
+}
