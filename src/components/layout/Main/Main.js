@@ -1,11 +1,11 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 
-import HomePage from '../pages/HomePage';
-import FaqPage from '../pages/FaqPage';
-import PolicyPage from '../pages/PolicyPage';
-import ContactPage from '../pages/ContactPage';
-import NotFoundPage from '../pages/NotFoundPage';
+import HomePage from '../../pages/Home/HomePage';
+import FaqPage from '../../pages/Faq/FaqPage';
+import PolicyPage from '../../pages/Policy/PolicyPage';
+import ContactPage from '../../pages/Contact/ContactPage';
+import NotFoundPage from '../../pages/NotFound/NotFoundPage';
 
 const Main = () => (
     <Switch>
