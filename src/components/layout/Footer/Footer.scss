@@ -1,12 +1,12 @@
 .footer-container {
+    position: absolute;
+    bottom: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
 
     .footer-p {
-        display: flex;
-        flex: 1;
+        padding-right: 350px;
     }
 
     .footer-link {
